@@ -38,6 +38,8 @@ ul {
 /* разметка для хедера */
 .site-nav .link {
   color: var(--primaty-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -185,6 +187,9 @@ ul {
 }
 
 .footer-action-request {
+  display: block;
+  margin-bottom: 21px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -193,8 +198,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  display: inline-block;
-  margin-bottom: 21px;
 }
 
 .footer-action-request:last-child {
