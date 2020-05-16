@@ -230,7 +230,9 @@ ul {
   padding-top: 21px;
   padding-bottom: 21px;
 }
-
+.clients-box img {
+  display: block;
+}
 .ya-co-client-href {
   padding-left: 65px;
   padding-right: 66px;
