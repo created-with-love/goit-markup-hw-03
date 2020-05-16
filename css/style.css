@@ -223,6 +223,10 @@ ul {
   border: 1px solid var(--accent-color);
 }
 
+.team-social-link-img {
+  display: block;
+}
+
 /* Коробочки для логотипов наших клиентов */
 
 .clients-box a {
