@@ -1,0 +1,259 @@
+ul {
+  list-style: none;
+}
+
+.page {
+  color: var(--primaty-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* H1 */
+.main-heading {
+  padding-top: 200px;
+  margin-bottom: 46px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-section {
+  /* background-color: gray; */
+  background-image: url(../images/Header-img.jpg);
+  box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.75) inset;
+  background-blend-mode: overlay;
+  width: 1600px;
+  height: 600px;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  width: 200px;
+
+  padding: 16px 32px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  text-decoration: none;
+
+  letter-spacing: 0.06em;
+
+  border-radius: 4px;
+}
+
+/* H2 */
+.section-heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+/* H3 */
+.third-heading,
+.our-work-heading {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.third-heading-par,
+.team-member-position {
+  color: var(--second-text-color);
+}
+
+.team-member-position,
+.team-member-name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-section {
+  background: var(--background-second-color);
+}
+
+/* about us section */
+.about-us-section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.about-us-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-item {
+  width: calc((100%-87px) / 4);
+  /* width: 278px; */
+}
+
+.about-us-item .third-heading {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-us-img-box {
+  padding: 25px 105px;
+}
+/* What we are doing */
+
+.worklist {
+  display: flex;
+  text-align: center;
+}
+.worklist-item {
+  border-radius: 4px;
+}
+
+.worklist-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-work-heading {
+  color: var(--white);
+  background: rgba(47, 48, 58, 0.8);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 27px 87px;
+
+  letter-spacing: 0.03em;
+}
+
+.wawd-secton {
+  margin-bottom: 94px;
+}
+
+.our-work-img {
+  display: block;
+}
+
+/* Our team section */
+
+.team-section-box {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.team-section-box > li {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.team-section-box > li:not(:last-child) {
+  margin-right: 30px;
+}
+.social-links-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.social-links-box li:hover {
+  background-color: var(--accent-color);
+  border: 1px solid outset;
+  border-radius: 30px;
+}
+
+.team-member-name {
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team-member-position {
+  margin-bottom: 16px;
+}
+
+.team-section .section-heading {
+  padding-top: 94px;
+}
+
+/* OUR CLIENTS */
+
+.clients-section .section-heading {
+  padding-top: 94px;
+}
+
+.clients-box {
+  display: flex;
+  padding-bottom: 94px;
+}
+.clients-box > li {
+  width: calc((100%-30px * 5) / 6);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-box li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-box > li:hover {
+  border: 1px solid var(--accent-color);
+}
+
+/* Коробочки для логотипов наших клиентов */
+
+.clients-box a {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.ya-co-client-href {
+  padding-left: 65px;
+  padding-right: 66px;
+}
+
+.tagline-client-href {
+  padding-left: 68px;
+  padding-right: 67px;
+}
+.unnamed-client-href {
+  padding-left: 63px;
+  padding-right: 71px;
+}
+.foster-client-href {
+  padding-left: 47px;
+  padding-right: 46px;
+}
+.brand-client-href {
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.rag-line-client-href {
+  padding-left: 43px;
+  padding-right: 43px;
+}
