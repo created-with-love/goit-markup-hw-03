@@ -219,17 +219,16 @@ ul {
 
 .footer-boxes {
   display: flex;
-  /* justify-content: space-around;
-  align-items: baseline; */
-  padding-top: 56px;
   padding-bottom: 28px;
+  padding-top: 48px;
+  
+  align-items: baseline;
   justify-content: space-between;
 }
 
 .footer-links {
   display: flex;
   text-align: center;
-  /* align-items: baseline; */
 }
 
 .footer-links > li:not(:last-child) {
