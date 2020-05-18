@@ -17,7 +17,7 @@ ul {
 }
 
 .section {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -155,6 +155,7 @@ ul {
   text-align: center;
 }
 .worklist-item {
+  /* width: calc((100% - 60px) / 3); */
   border-radius: 4px;
 }
 
@@ -167,9 +168,17 @@ ul {
   background: rgba(47, 48, 58, 0.8);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  padding: 27px 87px;
-
   letter-spacing: 0.03em;
+}
+
+.our-work-heading.first {
+  padding: 27px 82px 27px 83px;
+}
+.our-work-heading.second {
+  padding: 27px 85px;
+}
+.our-work-heading.third {
+  padding: 27px 90px;
 }
 
 .wawd-secton {
@@ -192,6 +201,10 @@ ul {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+.team-section-box > li {
+  width: calc((100% - 90px) / 4);
 }
 
 .team-section-box > li:not(:last-child) {
@@ -234,7 +247,7 @@ ul {
   padding-bottom: 94px;
 }
 .clients-box > li {
-  width: calc((100%-30px * 5) / 6);
+  width: calc((100% - 150px) / 6);
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
