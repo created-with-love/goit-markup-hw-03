@@ -76,7 +76,7 @@ ul {
   display: flex;
   align-items: center;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -113,7 +113,7 @@ ul {
 .header-logo-web,
 .header-logo-studio {
   font-style: normal;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -148,7 +148,7 @@ ul {
 .footer-logo-web,
 .footer-logo-studio {
   font-style: normal;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 22px;
   line-height: 1.18;
@@ -183,7 +183,7 @@ ul {
 .address {
   text-decoration: none;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -194,7 +194,7 @@ ul {
   display: block;
   margin-bottom: 21px;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -257,7 +257,7 @@ ul {
 
 .footer-button {
   padding: 10px 45px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
 
   font-weight: bold;
@@ -276,7 +276,7 @@ ul {
   padding-bottom: 21px;
   padding-top: 18px;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 2;
