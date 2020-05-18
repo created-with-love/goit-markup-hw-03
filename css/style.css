@@ -27,6 +27,7 @@ ul {
 /* H1 */
 .hero-item {
   padding-top: 200px;
+  padding-bottom: 183px;
 }
 
 .main-heading {
@@ -45,8 +46,7 @@ ul {
 }
 
 .hero-section {
-  width: 1600px;
-  height: 600px;
+  width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -57,8 +57,7 @@ ul {
 }
 
 .hero-button {
-  width: 200px;
-  padding: 16px 32px;
+  padding: 10px 32px;
 
   font-weight: bold;
   font-size: 16px;
@@ -67,6 +66,18 @@ ul {
   letter-spacing: 0.06em;
 
   border-radius: 4px;
+  color: var(--white);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  border-color: var(--white);
+  background: var(--background-second-color);
+  color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* H2 */
