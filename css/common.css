@@ -41,7 +41,10 @@ ul {
 /* разметка для хедера */
 .site-nav .link {
   color: var(--primaty-text-color);
-  padding-top: 32px;
+}
+
+.contacts-link, .site-nav .link {
+ padding-top: 32px;
   padding-bottom: 32px;
 }
 
@@ -73,15 +76,13 @@ ul {
   display: flex;
   align-items: center;
 
-  margin-top: 32px;
-  margin-bottom: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
 }
 .contacts {
   margin-left: auto;
@@ -161,8 +162,6 @@ ul {
   color: var(--white)
 }
 
-
-
 .footer {
   color: #ffffff;
   background-color: var(--footer-background);
@@ -202,7 +201,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
 }
 
 .footer-action-request:last-child {
@@ -221,7 +219,7 @@ ul {
   display: flex;
   padding-bottom: 28px;
   padding-top: 48px;
-  
+
   align-items: baseline;
   justify-content: space-between;
 }
