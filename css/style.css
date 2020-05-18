@@ -93,6 +93,11 @@ ul {
   color: var(--second-text-color);
 }
 
+.third-heading-par {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .team-member-position,
 .team-member-name {
   font-size: 16px;
@@ -123,6 +128,10 @@ ul {
 .about-us-item .third-heading {
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.about-us-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-us-img-box {
