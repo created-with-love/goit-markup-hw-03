@@ -132,7 +132,7 @@ body {
 
 .product-name,
 .product-type {
-  margin-left: 24px;
+  padding-left: 24px;
 }
 
 .product-name {
