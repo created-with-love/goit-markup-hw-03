@@ -106,8 +106,8 @@ ul {
 
 /* about us section */
 .about-us-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-us-list {
@@ -153,7 +153,8 @@ ul {
 }
 
 .wawd-secton {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-work-img {
