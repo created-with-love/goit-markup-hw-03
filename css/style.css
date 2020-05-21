@@ -27,7 +27,7 @@ ul {
 /* H1 */
 .hero-item {
   padding-top: 200px;
-  padding-bottom: 183px;
+  padding-bottom: 175px;
 }
 
 .main-heading {
@@ -213,13 +213,17 @@ ul {
 .social-links-box {
   display: flex;
   justify-content: center;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .social-links-box li:hover {
   background-color: var(--accent-color);
   border: 1px solid outset;
   border-radius: 30px;
+}
+
+.social-links-box li:not(:last-child) {
+  margin-right: 10px;
 }
 
 .team-member-name {
